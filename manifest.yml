@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 1536M
+  instances: 1
+  domain: mybluemix.net
+  name: textToSpeach
+  host: vlsutexttospeach
+  disk_quota: 1024M
+  services:
+  - Text to Speech-i0
