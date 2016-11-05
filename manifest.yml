@@ -1,5 +1,5 @@
 applications:
-- path: target/JavaHelloWorldApp.war
+- path: target/watson.war
   memory: 1536M
   instances: 1
   domain: mybluemix.net
